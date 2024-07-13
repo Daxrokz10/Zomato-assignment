@@ -1,0 +1,88 @@
+
+/* Write all styles here  */
+@media only screen and (max-width: 800px) {
+  /* Medium Screen  */
+}
+
+@media only screen and (max-width: 500px) {
+  /* Small Screen  */
+}
+.navbar{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.zomatoheading{
+  color: red;
+  margin-left: 10px;
+  font-size: 32px;
+}
+.navitems{
+  list-style: none;
+  display: flex;
+}
+.navitem{
+  font-size: 17px;
+  margin: 0px 10px;
+}
+.downloadbutton{
+  background-color: red;
+  color: white;
+  margin-right: 20px;
+  border: 0px;
+  height: 30px;
+}
+.orderitems{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+.ourproducts{
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  gap: 20px;
+  padding: 20px;
+  height: fit-content;
+}
+.box{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+.box img {
+  width: 100%;
+  height: auto;
+}
+.box h3 {
+  margin: 0;
+  padding: 20px;
+  background-color: white;
+}
+.box a {
+  display: block;
+  padding: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+.box a:hover {
+  text-decoration: underline;
+}
+.howitworks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 80%;
+  margin-left: 130px;
+}
+.step{
+  text-align: center;
+  margin-left: 10px;
+}
